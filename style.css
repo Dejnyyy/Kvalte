@@ -5,6 +5,11 @@
     text-decoration: none;
     color: #000;
 }
+
 .container{
     background-color: transparent;
+    
+}
+.top{
+    transition: background 0.3s ease;
 }
