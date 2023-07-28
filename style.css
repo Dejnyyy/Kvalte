@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 .navkontakt{
    
     font-size:1.5rem;
@@ -30,6 +33,34 @@ body{
     width: fit-content;
 }
 
+.navkontakt {
+    text-decoration: none;
+    position: relative;
+    
+}
+.navkontakt:hover {
+    text-decoration: none;
+    position: relative;
+    
+}
+
+.navkontakt::before {
+    text-decoration: none;
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #acba4a;
+    transition: width 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navkontakt:hover::before {
+    text-decoration: none;
+    width: 100%;
+}
 @media (max-width: 800px) {
 	.textos{
         margin-left:4rem;
