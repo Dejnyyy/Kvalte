@@ -1,15 +1,35 @@
 .navkontakt{
-    width:6rem;
+   
     font-size:1.5rem;
     float:right;
     text-decoration: none;
     color: #000;
 }
+.navkontakt:hover{
+   color: #acba4a;
+   transition:all 0.3s ease;
+}
 
-.container{
+.conto{
     background-color: transparent;
-    
+  
 }
 .top{
     transition: background 0.3s ease;
+}
+.textos{
+    margin-left:10rem;
+    margin-right:10rem;
+}
+@media (max-width: 800px) {
+	.textos{
+        margin-left:4rem;
+        margin-right: 4rem;
+    }
+}
+@media (max-width: 1000px) {
+	.textos{
+        margin-left:3rem;
+        margin-right: 3rem;
+    }
 }
