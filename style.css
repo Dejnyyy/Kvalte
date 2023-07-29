@@ -64,6 +64,22 @@ body{
     text-decoration: none;
     width: 100%;
 }
+.centered {
+    position: absolute;
+    width: 50rem;
+    height: 3rem;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-size: 2rem;
+    font-weight: 700;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centeredText{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
 .titel{
     font-size: 2rem;
     font-weight: 70;
