@@ -130,6 +130,23 @@ body{
         background-color: transparent;
         margin-top:3rem;
     }
+    .centered {
+        position: absolute;
+        width: 20rem;
+        height: 2.5rem;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        font-size: 1.5rem;
+        font-weight: 700;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 11;
+      }
+      .centeredText{
+        font-size: 1rem;
+        font-weight: 700;
+      }
     
 }
 @media (max-width: 1200px) {
@@ -139,4 +156,21 @@ body{
         margin-top:3rem;
     }
 }
-
+@media (max-width: 440px) {
+	
+    .tele{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 420px) {
+	
+    .tele{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 390px) {
+	
+    .tele{
+        font-size: 0.7rem;
+    }
+}
