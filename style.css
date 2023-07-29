@@ -111,6 +111,10 @@ body{
     background-color: transparent;
     margin-top:8rem;
 }
+.icodico{
+    text-decoration: none;
+    color: black;
+}
 @media (max-width: 800px) {
 	.textos{
         margin-left:4rem;
