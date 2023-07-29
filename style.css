@@ -201,6 +201,18 @@ body{
         font-weight: 700;
       }
 }
+@media (max-width: 500px) {
+	
+    .filtr{
+      position: absolute;
+        width: 100%;
+        height: 40.1rem;
+        background-color: rgba(184, 184, 184, 0.615);
+        z-index: 10;
+        top:4.7rem;
+    }
+      
+}
 @media (max-width: 390px) {
 	
     .tele{
@@ -224,3 +236,28 @@ body{
         font-weight: 700;
       }
 }
+@media (max-width: 345px) {
+	
+    .filtr{
+      position: absolute;
+        width: 100%;
+        height: 40.1rem;
+        background-color: rgba(184, 184, 184, 0.615);
+        z-index: 10;
+        top:4.5rem;
+    }
+      
+}
+@media (max-width: 160px) {
+	
+    .filtr{
+      position: absolute;
+        width: 100%;
+        height: 40.1rem;
+        background-color: rgba(184, 184, 184, 0.615);
+        z-index: 10;
+        top:1.6rem;
+    }
+      
+}
+
